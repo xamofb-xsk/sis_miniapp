@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+  <view>用户名:
+    <input name="userName" placeholder="请输入用户名" bindinput="userNameInput"/>
+  </view>
+  <view>密 码：
+    <input name="passWord"placeholder="请输入密码" bindinput="passWdInput"/>
+  </view>
+  <view>
+    <button bindtap="loginBtn">{{login}}</button>
+  </view>
+  <view>{{infoMess}}</view>
+</view>

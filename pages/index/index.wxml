@@ -1,0 +1,19 @@
+<!--pages/index/index.wxml-->
+
+<view class="row">
+  <view class="col">
+    <view class="col-2 iconfont icon-kebiao" style="color:black;font-size:50px;" bindtap="schedule_click">
+      <text class="font">课表</text>
+      </view>
+      
+    <view class="col-2 iconfont icon-benzi"  style="color:red;font-size:50px;" bindtap="liredbk_click">
+      <text class="font" style="padding-left: 14px;">小红本</text>
+    </view>
+    <view class="col-2 iconfont icon-huodong" style="color:black;font-size:50px;"  bindtap="act_click">
+      <text class="font">活动</text>
+    </view>
+    <view class="col-2 iconfont icon-wodegerenzhongxin"  style="color:black;font-size:50px;" bindtap="personal_click">
+      <text class="font">我的</text>
+    </view>
+  </view>
+</view>

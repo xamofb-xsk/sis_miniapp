@@ -1,0 +1,51 @@
+/* pages/index/index.wxss */
+@import "../font/font.wxss";
+page{
+  background: #f1f1f1;
+}
+.row{
+  display: block;
+  margin: 0px;
+}
+
+.col{
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 17px;
+  background: #ffffff;
+  margin: 5% 5% 0% 5%;
+  border: while solid thin;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  border-radius: 5px;
+}
+
+.col-1{
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 17px;
+  background: #ffffff;
+  margin: 0% 5% 0% 5%;
+  border: red solid thin;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.col-2{
+  width: 100%;
+  padding: 0px;
+  text-align: center; 
+  vertical-align: middle;
+}
+
+
+.x-center {
+  text-align: center;
+}
+
+.font{
+  color: black;
+  display: flex;
+  font-size:15px;
+  padding-left: 20px;
+}
